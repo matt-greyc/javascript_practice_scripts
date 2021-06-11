@@ -27,7 +27,6 @@ function openOrSenior(data){
 
     for (let element of data) {
         isSenior = element[0] >= 55 && element[1] > 7
-        console.log(element, isSenior)
 
         if (isSenior) {
             membershipType.push('Senior')
